@@ -1,0 +1,114 @@
+:root {
+     --color-theme: #fd7e14;
+
+     --color-bg-dark: hsl(210, 10%, 23%);
+     --color-bg-light: #f7f7f7;
+
+     --color-text-dark: #000;
+     --color-bg-light: #fff;
+     --color-text-light: gray;
+
+     --headings-font-size: 1.75rem;
+     --base-font-size: 1rem;
+}
+
+/* Logo */
+.logo .snc-logo {
+     color: var(--color-theme);
+     padding-left: 90px !important;
+     padding-bottom: 20px !important;
+     font-size: 40px;
+
+}
+
+
+/* Titles */
+.card-title {
+     color: var(--color-theme) !important;
+
+}
+
+.a-inside-td {
+     color: var(--color-theme) !important;
+
+}
+
+/* Nav */
+.nav-link span {
+     color: var(--color-text-dark);
+}
+
+.nav-link span:hover {
+     color: var(--color-theme);
+     background-color: #f7f7f7;
+}
+
+/* Nav icons */
+.bi::before {
+     color: var(--color-theme);
+
+}
+
+/*Badge */
+.header-nav .badge-number {
+     color: var(--color-theme);
+}
+
+/* Buttons */
+.btn-primary {
+     background-color: var(--color-theme);
+     color: var(--color-bg-light);
+     font-size: 16px;
+     border-radius: 30px;
+     padding: 10px 30px;
+     border: none;
+}
+
+.btn-primary:hover {
+     background-color: #fd7d148b;
+}
+
+.btn-danger {
+     background-color: var(--color-bg-dark);
+     border: 1px;
+
+}
+
+/*Back to top Button*/
+/* .back-to-top {
+     background: var(--color-theme);
+     border: none;
+
+}
+.back-to-top::before {
+     color: white !important;
+     border: none;
+
+}
+.bi-arrow-up-short::before {
+     color: white;
+     background-color: red;
+     border: none;
+} */
+
+/* Logout */
+.btn-link {
+     color: var(--color-theme);
+}
+
+/* Footer & copyright */
+.footer .copyright {
+     color: var(--color-text-dark);
+}
+
+.footer .credits {
+     color: var(--color-text-dark);
+}
+
+.footer .credits a {
+     color: var(--color-theme);
+}
+
+.dashboard .news h4 a {
+     color: var(--color-text-dark) !important;
+}
